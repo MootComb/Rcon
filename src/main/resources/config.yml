@@ -1,0 +1,32 @@
+messages:
+  prefix: "&x&F&B&1&C&0&8ʀ&x&F&C&1&D&0&5ᴄ&x&F&E&1&E&0&3ᴏ&x&F&F&1&F&0&0ɴ &7|&f"
+  commandUsage: "%prefix% Use: &x&F&B&1&C&0&8/rcon [subcommand]"
+  commandSendUsage: "%prefix% Use: &x&F&B&1&C&0&8/rcon send [server] [command]"
+  serverNotFound: "%prefix% Server %s was not found in the configuration."
+  responseFromServer: "%prefix% Response from server &7%s: &f%r"
+  settingsReloaded: "%prefix% Plugin reloaded!"
+  unknownSubcommand: "%prefix% Unknown subcommand: &x&F&B&1&C&0&8%s"
+  rconError: "%prefix% Failed to send RCON command to server &7%s."
+  permission-message: "%prefix% You do not have permission to use this command."
+  help: |
+    %prefix% Available commands:
+    %prefix% &x&F&B&1&C&0&8/rcon send [server] [command] &7- &fSend a command to a server
+    %prefix% &x&F&B&1&C&0&8/rcon reload &7- &fReload the configuration
+    %prefix% &x&F&B&1&C&0&8/rcon help &7- &fShow this help page
+  plugin.enabled: "RCONPlugin enabled!"
+  plugin.disabled: "RCONPlugin disabled!"
+  send.permission-message: "%prefix% You do not have permission to send commands."
+  reload.permission-message: "%prefix% You do not have permission to reload."
+  rconAuthError: "%prefix% RCON authentication failed on server &7%s."
+  errors.authFailure: "Authentication failure"
+  errors.socketOpen: "Failed to open socket to %s:%s"
+  errors.socketClose: "Failed to close socket channel"
+  errors.write: "Failed to write %s bytes"
+  errors.read: "Failed to read %s bytes"
+  errors.readMismatch: "Expected %s bytes but received %s"
+  errors.nullBytes: "Expected 2 null bytes but received %s and %s"
+  errors.idMismatch: "Sent request id %s but received %s"
+servers.example1.address: "127.0.0.1:25575"
+servers.example1.password: "changeme1"
+servers.example2.address: "127.0.0.1:25576"
+servers.example2.password: "changeme2"
