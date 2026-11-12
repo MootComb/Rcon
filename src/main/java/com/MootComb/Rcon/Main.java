@@ -1,4 +1,4 @@
-package org.MootComb.Rcon;
+package com.MootComb.Rcon;
 
 import java.io.Closeable;
 import java.io.IOException;
