@@ -1,5 +1,3 @@
-# RCON Plugin
-
 <h1 align="center">RCON</h1>
 
 <p align="center">
@@ -175,7 +173,6 @@ Planned and proposed features, roughly ordered by priority.
 
 ### 🎨 Cosmetic / UX
 - [x] **Tab completion** — server names and subcommands auto-complete
-- [ ] **Pretty-printed responses** — wrap long responses across multiple lines
 - [ ] **History** — `/rcon history` to recall recently sent commands
 
 ### 🛡️ Access & Security
